@@ -18,7 +18,7 @@ terraform {
 
 backend "remote" {
 		hostname = "app.terraform.io"
-		organization = "CloudQuickLabs"
+		organization = "AmmogDEVS"
 
 		workspaces {
 			name = "AWSECS"
@@ -27,6 +27,6 @@ backend "remote" {
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }
 
