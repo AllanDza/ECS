@@ -16,14 +16,14 @@ terraform {
     }
   }
 
-/*backend "remote" {
+backend "remote" {
 		hostname = "app.terraform.io"
 		organization = "AmmogDEVS"
 
 		workspaces {
 			name = "AWSECS"
 		}
-	}*/
+	}
 }
 
 provider "aws" {
